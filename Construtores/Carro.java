@@ -1,17 +1,17 @@
 class Carro{
-  private final String marca;
+  private final Marca marca;
   private int ano;
   private int distancia;
   private int velocidade;
 
-  public Carro (String marca, int ano, int distancia, int velocidade){
+  public Carro (Marca marca, int ano, int distancia, int velocidade){
     this.marca = marca;
     this.ano = ano;
     this.distancia = distancia;
     this.velocidade = velocidade;
   }
 
-  public String getMarca(){
+  public Marca getMarca(){
     return marca;
   }
 
